@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.4.jar" sourcepath="libsrc">
+		<attributes>
+			<attribute name="javadoc_location" value="http://commons.apache.org/codec/api-release/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar" sourcepath="libsrc">
+		<attributes>
+			<attribute name="javadoc_location" value="http://commons.apache.org/logging/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/commons-pool-1.5.5.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-0.20.2-core.jar" sourcepath="libsrc">
+		<attributes>
+			<attribute name="javadoc_location" value="http://hadoop.apache.org/common/docs/r0.20.2/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/hive-exec-0.6.0.jar" sourcepath="libsrc">
+		<attributes>
+			<attribute name="javadoc_location" value="http://hive.apache.org/docs/r0.6.0/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/hive-jdbc-0.6.0.jar" sourcepath="libsrc">
+		<attributes>
+			<attribute name="javadoc_location" value="http://hive.apache.org/docs/r0.6.0/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/ojdbc6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
